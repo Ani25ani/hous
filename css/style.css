@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+header{
+    height: 10vh;
+}
+.main{
+    height: 100vh;
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 3vh;
+}
+.left{
+    width: 50%;
+    display: inline-block;
+}
+.right{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+.left img{
+    width: 80%;
+}
+.right img{
+    height: 40px;
+}
+.right span{
+    font-size: 1.5em;
+}
+main{
+    border: 45px solid gold;
+    text-align: center;
+    height: 60vh;
+    margin-top: 10vh;
+    padding-top: 10vh;
+}
+main h1{
+    font-size: 3em;
+}
+main h4{
+    margin: -5px 0;
+}
+main p{
+    font-size: 1.3em;
+    margin-bottom: 5vh;
+}
+main > p > span{
+    color: gold;
+}
+main > div > span{
+    font-size: 1.7em;
+    margin-left: 10px;
+    vertical-align: super;
+}
+main > button{
+    padding: 10px 15px;
+    background-color: gold;
+    border: none;
+    margin-top: 10px;
+}
+.location{
+    height: 50vh;
+    padding-top: 5vh;
+}
+section .container > h1{
+text-transform: uppercase;
+}
+section .container >h1::before{
+    content: "";
+    background-color: black;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    top: 10px;
+    left: -60px;
+}
+.item{
+    display: inline-block;
+    width: 35vh;
+    text-align: center;
+}
+.items{
+    margin-top: 10vh;
+
+}
+.location .container > p{
+    margin: 30px 0;
+    text-align: center;
+}
+.black{
+    background-color: black;
+    height: 30px;
+    margin-top: 50px;
+}
+.modern .container .left img{
+    width: 100%;
+}
+.apartmen{
+    margin-bottom: 40px;
+}
+.apartmen h1{
+    text-align: left;
+    position: relative;
+    bottom: 23vh;
+    left: 3vh;
+}
+.apartmen p{
+    text-align: left;
+    position: relative;
+    bottom: 23vh;
+    left: 3vh;
+}
+.apartmen h2{
+    border: 5px solid gold;
+    border-spacing: 5px;
+    padding: 8px;
+    text-align: left;
+    position: relative;
+    bottom: 10vh;
+    font-size: 25px;
+    width: fit-content;
+    
+}
+.apartmen .right{
+    position: relative;
+    top: 10vh;
+    padding: 3vh;
+}
+.container .apartmen{
+    position: relative;
+    top: 5vh;
+}
+.element img{
+    width: 40px;
+    height: 40px;
+}
+.element span{
+    font-size:15px ;
+}
+.elements{
+    width: 70%;
+    margin: 0 auto;
+}
+.element{
+    text-align: left !important;
+    margin-bottom: 20px;
+}
+.element span{
+    display: inline-block;
+    margin-left: 10px;
+}
+.elements > h2{
+    background-color: gold;
+    padding: 8px;
+    margin-right: 60px;
+    position: relative;
+    left: 10vh;
+    top: 5vh;
+    width: fit-content;
+}
+.skcrol img{
+    width: 100%;
+    position: relative;
+    top: 40px;
+}
+.advantages .container{
+    position: relative;
+    top: 14vh;
+    left: 11vh;
+}
+.modern .container{
+    position: relative;
+    top: 40px;
+}
+.location .container{
+    position: relative;
+}
+.lock{
+    position: relative;
+    top: 50vh;
+}
+.lock .lef{
+    position: relative;
+    left: 50vh;
+}
+.lock .righ{
+    position: relative;
+    left: 120vh;
+    bottom: 19vh;
+}
+.lef h2{
+    color: gold;
+    position: relative;
+    bottom: 10vh;
+}
+.lef p{
+    position: relative;
+    bottom: 5vh;
+}
+.lef h3 > span{
+    color: gold;
+}
+.lock{
+    color: white;
+}
+.block{
+    margin-top: 25vh;
+    padding-top: 5vh;
+    background-image: url(../img/fon_ost-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 60vh;
+}
+.the-end{
+    height: 60vh;
+    background-image: url(../img/fon_ost-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding-bottom: 30vh;
+}
+@media (max-width:576px) {
+    .container {
+        width: 40vh;
+    }
+    main h1 {
+        font-size: 2.2em;
+    }
+    .right {
+        width: 120px;
+    }
+    main {
+        width: 39vh
+    }
+    .black {
+        margin-top: 50vh;
+    }
+    .items {
+        margin-top: 4vh;
+        display: flex;
+        line-height: 32px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .location .container {
+        width: 30vh;
+    }
+    .elements > h2 {
+        right: 7vh;
+    }
+    .modern .container {
+        width: 35vh;
+    }
+    .modern .apartmen .left {
+        width: 35vh;
+    }
+    .apartmen .right {
+        top: 22vh;
+        width: 30vh
+    }
+    .apartmen h2 {
+        bottom: 20vh;
+    }
+    .elements {
+        padding-top: 5vh;
+    }
+    .block {
+        height: 30vh;
+    }
+    .the-end {
+        height: 30vh;
+    }
+}
+
+
